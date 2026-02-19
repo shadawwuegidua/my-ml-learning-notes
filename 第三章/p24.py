@@ -10,8 +10,10 @@ print(b)
 print(b.dtype)
 c = np.array([1,2,3,4], dtype="float32")
 
-d = np.array([[1,2,3],[4,5]])
+d = np.array([[1,2,3],
+              [4,5]])
 print(d.shape)
 # print(d)  # This will raise an error because the inner lists have different lengths
-d1 = np.array([[1,2,3],[4,5,6]])
+d1 = np.array([[1,2,3],
+               [4,5,6]])
 print(d1.shape)
