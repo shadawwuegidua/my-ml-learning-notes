@@ -60,4 +60,4 @@ print("b:\n", b)
 # - 参数 fmt: 数据格式，例如 '%.2f' 保留两位小数，'%d' 为整数。
 # - 参数 delimiter: 分隔符，例如 ',' 用于 CSV 文件。
 # - 示例：np.savetxt("data.csv", my_array, delimiter=",", fmt="%.2f")
-np.savetxt("ABC.csv", c, delimiter=",", fmt="%.2f")
+np.savetxt("ABC_savetxt.csv", b, delimiter=",", fmt="%.2f")
